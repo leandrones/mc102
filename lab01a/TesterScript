@@ -1,0 +1,30 @@
+./lab* < in/arq01.in > out/arq01.out
+./lab* < in/arq02.in > out/arq02.out
+./lab* < in/arq03.in > out/arq03.out
+./lab* < in/arq04.in > out/arq04.out
+./lab* < in/arq05.in > out/arq05.out
+./lab* < in/arq06.in > out/arq06.out
+./lab* < in/arq07.in > out/arq07.out
+./lab* < in/arq08.in > out/arq08.out
+./lab* < in/arq09.in > out/arq09.out
+./lab* < in/arq10.in > out/arq10.out
+echo "Caso 1:"
+diff out/arq01.out res/arq01.res
+echo "Caso 2:"
+diff out/arq02.out res/arq02.res
+echo "Caso 3:"
+diff out/arq03.out res/arq03.res
+echo "Caso 4:"
+diff out/arq04.out res/arq04.res
+echo "Caso 5:"
+diff out/arq05.out res/arq05.res
+echo "Caso 6:"
+diff out/arq06.out res/arq06.res
+echo "Caso 7:"
+diff out/arq07.out res/arq07.res
+echo "Caso 8:"
+diff out/arq08.out res/arq08.res
+echo "Caso 9:"
+diff out/arq09.out res/arq09.res
+echo "Caso 10:"
+diff out/arq10.out res/arq10.res
